@@ -2,7 +2,7 @@
 
 This set of scripts makes up the implementation of a fuzzy system. They can be used to create experiments or production systems. Here is a basic example of their use:
 
-``
+```
 # Load libraries
 from FuzzyPlots import plot, plotMesh
 from FuzzyBasicSets import TriangularSet, SingletonSet, Universe
@@ -73,4 +73,4 @@ print("Conclusão defuzzificada (Centroid): ", FS.calcCentroid())
 # Plot results
 plot(UACT, FS.ICONC, show_overlaid=True) 
 plot(UACT, FS.getConclusionAsPartition())
-``
+```
